@@ -1,0 +1,170 @@
+/* Reset de margens e preenchimento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #ac5484;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ac5484;
+    color: white;
+    padding: 15px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Carrossel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-caption h5 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.carousel-caption p {
+    font-size: 1.5em;
+    color: white;
+}
+
+.carousel-item img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 500px;
+}
+
+/* Botões do carrossel */
+.btn-warning {
+    background-color: #F39C12;
+    border-color: #F39C12;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+/* Estilo do botão */
+.botao-simples {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    padding: 04px 25px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Sem sublinhado */
+    display: inline-block; /* Exibição em linha */
+    font-size: 30px; /* Tamanho da fonte */
+    margin: 10px 560px; /* center*/
+    cursor: pointer; /* Mostrar o cursor como mãozinha */
+    border-radius: 8px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+/* Efeito de passar o mouse */
+.botao-simples:hover {
+    background-color: #45a049; /* Cor mais escura ao passar o mouse */
+}
+
+
+.btn-warning:hover {
+    background-color: #E67E22;
+    border-color: #E67E22;
+}
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ac5484;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 16px;
+    color: #333;
+}
+
+.product button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.product button:hover {
+    background-color: #218838;
+}
+
+/* Rodapé */
+footer {
+    background-color: #ac5484;
+    background-color: ;
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1em;
+}
